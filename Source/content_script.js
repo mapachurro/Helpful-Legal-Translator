@@ -41,8 +41,8 @@ function handleText(textNode)
 
 	v = v.replace(/\bmaybe\b/g, "allegedly");
 	v = v.replace(/\bperhaps\b/g, "allegedly");
-	v = v.replace(/\bthe Cloud\b/g, "my Butt");
-	v = v.replace(/\bthe cloud\b/g, "my butt");
+	v = v.replace(/\bthrow out\b/g, "pretermit");
+	v = v.replace(/\bdrop\b/g, "nolle");
 	
 	textNode.nodeValue = v;
 }
