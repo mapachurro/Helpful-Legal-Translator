@@ -42,7 +42,7 @@ function handleText(textNode)
 	v = v.replace(/\bmaybe\b/g, "allegedly");
 	v = v.replace(/\bperhaps\b/g, "allegedly");
 	v = v.replace(/\bthrow out\b/g, "pretermit");
-	v = v.replace(/\bdrop\b/g, "nolle");
+	//Need to come up with a better synonym for nolle v = v.replace(/\bdrop\b/g, "nolle");
 	
 	textNode.nodeValue = v;
 }
