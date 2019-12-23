@@ -42,6 +42,17 @@ function handleText(textNode)
 	v = v.replace(/\bmaybe\b/g, "allegedly");
 	v = v.replace(/\bperhaps\b/g, "allegedly");
 	v = v.replace(/\bthrow out\b/g, "pretermit");
+	v = v.replace(/\bconfusing\b/g, "turpitudinous");
+	v = v.replace(/\bcancel\b/g, "rescind");
+	v = v.replace(/\bsaid\b/g, "as per");
+	v = v.replace(/\bbecause\b/g, "inasmuch as");
+	v = v.replace(/\bthrough\b/g, "vis-a-vis");
+
+
+
+
+
+	
 	//Need to come up with a better synonym for nolle v = v.replace(/\bdrop\b/g, "nolle");
 	
 	textNode.nodeValue = v;
